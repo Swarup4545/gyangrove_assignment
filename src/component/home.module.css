@@ -1,0 +1,128 @@
+.banner{
+    background: url('../images/Banner.svg');
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    background-size: cover;
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; 
+
+}
+
+.textpart{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+
+}
+.hedding{
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+    padding-top:150px;
+}
+.para{
+    color: white;
+    padding: 30px;
+}
+.card{
+    height: 350px;
+    min-width: 240px;
+    background-color: aqua;
+    padding-bottom: 10px;
+    overflow: hidden;
+    border-radius: 15px;
+    
+}
+.imgbox{
+    height: 115%;
+    width: 115%;
+    background-color: black;
+    
+   
+    right: 20px;
+    bottom: 20px;
+    position: relative;
+    
+}
+
+.cardtextmain{
+    height: 100%;
+    
+}
+.cardtext{
+   
+    display: flex;
+    width: 240px;
+    position: relative;
+    top: 320px;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.eventtext{
+    font-size: 12px;
+    font-weight: 600;
+}
+.eventloc{
+    display: flex;
+}
+.eventkm{
+    font-size: 12px;
+}
+.eventloctext{
+    font-size: 12px;
+}
+.eventdate{
+    font-size: 12px;
+    padding: 3px;
+}
+.main{
+    color: white;
+    margin-top: 15% ;
+}
+.main1{
+    display: flex;
+    padding-bottom: 30px;
+    margin-left: 15%;
+    gap: 1rem;
+    width: 85%;
+   
+    overflow-y: scroll;
+  /* Hide scrollbar */
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none
+}
+.arrow{
+    display: flex;
+}
+.recobox{
+    margin-left: 15%;
+    width: 83%;
+    display: flex;
+    justify-content: space-between;
+}
+.imgban{
+    height: 100px;
+    width: 100px;
+}
+.load{
+    font-size: 40px;
+    font-weight: 700px;
+    text-align: center;
+}
+
+/* medai screen or responsive */
+@media screen and (max-width: 780px){
+    .hedding{
+        color: white;
+        font-weight: 600;
+        font-size: 25px;
+        padding-top:50px;
+        
+    }
+    .textpart{
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+    
+}

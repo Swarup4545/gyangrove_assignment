@@ -28,7 +28,7 @@ Before running the application locally, ensure you have the following installed:
 Follow these steps to build and run the Bookus Event App locally:
 --
    -Clone the repository:
-      git clone https://github.com/Swarup4545/GyanGrove-Assignmen-events.git
+      git clone https://gyangrove-task-swarup.netlify.app/
    -Navigate to the project directory:
       cd my-project
    -Install dependencies:
